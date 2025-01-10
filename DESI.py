@@ -55,8 +55,8 @@ def write_config(config):
 
 
 config = load_config()
-bot = telebot.TeleBot(config['bot_token'])
-ADMIN_IDS = set(config['admin_ids'])
+bot = telebot.TeleBot(config['7510152916:AAFa5XY3QvfmFnWdP6OsXRZtr6XP_zolQZs'])
+ADMIN_IDS = set(config['6882674372'])
 USER_FILE = config['user_file']
 LOG_FILE = config['log_file']
 COOLDOWN_TIME = config['cooldown_time']
